@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+
+  <html>
+    <head>
+      <meta charset="utf-8">
+      <title>Square</title>
+      <style type="text/css">
+      #square {
+        position: absolute;
+        width: 100px;
+        height: 100px;
+        -webkit-animation: movingimage 10s linear infinite;
+        -moz-animation: movingimage 10s linear infinite;
+        -o-animation: movingimage 10s linear infinite;
+        -animation: movingimage 10s linear infinite;
+        }
+        @keyframes movingimage {
+          0% {left :0px; top: 0px;}
+          25% {left :350px; top: 0px;}
+          50% {left :350px; top: 350px;}
+          75% {left :0px; top: 350px;}
+          100% {left: 0px; top: 0px;}
+          }
+        @-webkit-keyframes movingimage {
+          0% {left :0px; top: 0px;}
+          25% {left :350px; top: 0px;}
+          50% {left :350px; top: 350px;}
+          75% {left :0px; top: 350px;}
+          100% {left: 0px; top: 0px;}
+          }
+        @-moz-keyframes movingimage {
+          0% {left :0px; top: 0px;}
+          25% {left :350px; top: 0px;}
+          50% {left :350px; top: 350px;}
+          75% {left :0px; top: 350px;}
+          100% {left: 0px; top: 0px;}
+          }
+        @-o-keyframes movingimage {
+          0% {left :0px; top: 0px;}
+          25% {left :350px; top: 0px;}
+          50% {left :350px; top: 350px;}
+          75% {left :0px; top: 350px;}
+          100% {left: 0px; top: 0px;}
+          }
+      </style>
+    </head>
+      <body>
+        <div id = "square" style="background: red; background-size: 100px 100px;">
+      </body>
+   </html>

@@ -1,0 +1,111 @@
+<!DOCTYPE HTML>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>4Square</title>
+    <style>
+    .red {
+        height: 50px;
+        width: 50px;
+        top: 20px;
+        left: 20px;
+        position: absolute;
+        -webkit-animation: movingimage 10s linear infinite;
+        -moz-animation: movingimage 10s linear infinite;
+        -o-animation: movingimage 10s linear infinite;
+        -animation: movingimage 10s linear infinite;
+    }
+
+
+
+      .cyan {
+          height: 50px;
+          width: 50px;
+          bottom: 57%;
+          left: 20px;
+          position: absolute;
+          -webkit-animation: movingimage2 10s linear infinite;
+          -moz-animation: movingimage2 10s linear infinite;
+          -o-animation: movingimage2 10s linear infinite;
+          -animation: movingimage2 10s linear infinite;
+      }
+      @keyframes movingimage {
+
+        }
+
+        .green {
+            height: 50px;
+            width: 50px;
+            left: 300px;
+            top: 20px;
+            position: absolute;
+            -webkit-animation: movingimage3 10s linear infinite;
+            -moz-animation: movingimage3 10s linear infinite;
+            -o-animation: movingimage3 10s linear infinite;
+            -animation: movingimage3 10s linear infinite;
+        }
+        @keyframes movingimage {
+
+          }
+
+          .yellow {
+              height: 50px;
+              width: 50px;
+              top: 305px;
+              bottom: 100px;
+              left: 300px;
+              position: absolute;
+              -webkit-animation: movingimage4 10s linear infinite;
+              -moz-animation: movingimage4 10s linear infinite;
+              -o-animation: movingimage4 10s linear infinite;
+              -animation: movingimage4 10s linear infinite;
+          }
+          @-webkit-keyframes movingimage{
+            0% {opacity: 1 left: 20px; top: 20px;}
+            100%{opacity: 0 left: 100px; top: 100px;}
+          }
+
+          @keyframes movingimage {
+            0% {opacity: 1;left :20px; top: 20px;}
+            100%{opacity: 0;left: 100px; top: 100px;}
+          }
+
+            @-webkit-keyframes movingimage2{
+              0% {opacity: 1; left: 20px; top: 20px;}
+              100%{opacity: 0; left: 100px; top: 100px;}
+            }
+
+            @keyframes movingimage2 {
+              0% {opacity: 1;left: 20px; top: 300px;}
+              100% {opacity: 0;left: 100px; top: 100px;}
+              }
+
+              @-webkit-keyframes movingimage3{
+                0% {opacity: 1; left: 300px; top: 20px;}
+                100%{opacity: 0; left: 100px; top: 100px;}
+              }
+
+              @keyframes movingimage3 {
+                0% {opacity: 1;left :350px; top: 20px;}
+                100% {opacity: 0;left: 100px; top: 100px;}
+                }
+
+                @-webkit-keyframes movingimage4{
+                  0% {opacity: 1; left: 350px; top: 300px;}
+                  100%{opacity: 0; left: 100px; top: 100px;}
+                }
+
+                @keyframes movingimage4 {
+                  0% {opacity: 1;left :350px; top: 300px;}
+                  100% {opacity: 0; left: 100px; top: 100px;}
+                  }
+
+    </style>
+  </head>
+    <body>
+      <div class="red" style="background: red;"></div>
+      <div class="cyan" style="background: cyan;"></div>
+      <div class="green" style="background: green;"></div>
+      <div class="yellow" style="background: yellow;"></div>
+    </body>
+</html>
